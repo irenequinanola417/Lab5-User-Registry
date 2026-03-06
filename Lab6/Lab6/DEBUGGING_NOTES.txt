@@ -1,0 +1,13 @@
+Debugging Notes – Lab 6
+
+Bug Encountered:
+The program crashed when the user entered letters instead of a number for the age.
+
+Diagnosis:
+The error happened when Python tried to convert the age input into an integer using int().
+
+Solution:
+I added a try/except block to catch the ValueError. Now the program shows an error message and asks the user to enter a valid number again.
+
+Result:
+The program no longer crashes when invalid input is entered.
